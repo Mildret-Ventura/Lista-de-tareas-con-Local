@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <!-- Titulo de la pagia -->
+    <header>
+        <h1 class="titulo">Lista de tareas con Local Storage</h1>
+    </header>
+
+    <!-- Contenido -->
+    <main class="contenedor">
+        <!-- Campo para agregar nuevas tareas -->
+        <section class="nueva-tarea">
+            <label for="tarea">Tarea:</label>
+            <input type="text" id="tarea" placeholder="Escribe una nueva tarea">
+            <button id="btnGuardar" class="btnGuardar">Guardar</button>
+        </section>
+
+        <!-- Lista de tareas -->
+        <section class="lista-tareas">
+             <h1 class="titulotareas">Tareas asignadas</h1>
+            <ul id="listaTareas"></ul>
+        </section>
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
